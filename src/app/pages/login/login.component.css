@@ -9,3 +9,17 @@
     background-color: lightgreen;
     color: #fff;
 }
+
+input {
+    border: none;
+    margin-top: 5px;
+    background: rgb(209, 245, 195);
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus{
+    background-color: rgba(241, 241, 241, 0.739);
+    color: rgb(156, 156, 156);
+    transition: 0.3s;
+}
