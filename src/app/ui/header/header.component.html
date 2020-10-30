@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
     <div class = "container">
         <!-- This is the application title with a link to the root -->
         <a class="navbar-brand" routerLinkActive="active" routerLink="/">
@@ -14,9 +14,9 @@
               All
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" routerLinkActive="active" routerLink="#">Product category</a>
-              <a class="dropdown-item" routerLinkActive="active" routerLink="#">Product category</a>
-              <a class="dropdown-item" routerLinkActive="active" routerLink="#">Product category</a>
+              <a class="dropdown-item" routerLinkActive="active" routerLink="/user">user dashboard</a>
+              <a class="dropdown-item" routerLinkActive="active" routerLink="/vendor">vendor dashboard</a>
+              <a class="dropdown-item" routerLinkActive="active" routerLink="/admin">admin dashboard</a>
             </div>
             </li>
             <li class="nav-item">
@@ -29,7 +29,7 @@
       <span id="navbarMobile">
         <ul class="navbar-nav">
             <!-- Each link has the routerLink property set to a different route -->
-            <li> <a class="nav-item nav-link" routerLinkActive="active" routerLink="/cart">Cart</a></li>
+            <li> <a class="nav-item nav-link" routerLinkActive="active" routerLink="/cart"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
             <li> <a class="nav-item nav-link" routerLinkActive="active" routerLink="/home">Home</a></li>
            <li> <a class="nav-item nav-link" routerLinkActive="active" routerLink="/about">About</a></li>
            <li> <a class="nav-item nav-link" routerLinkActive="active" routerLink="/login">Login</a></li>
