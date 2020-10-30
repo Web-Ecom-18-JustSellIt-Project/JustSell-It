@@ -1,0 +1,58 @@
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 550px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+    
+
+.well {
+    transition: 0.2s;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background: rgb(121, 93, 43);
+    color: white;
+}
+
+/* .well:hover {
+    transition: 0.2s;
+    color: #FFA600;
+    background: rgb(121, 93, 43);
+    border-left: 5px solid #FFA600;
+} */
+
+.well h4 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.well:hover {
+    transition: 0.2s;
+    color: #FFA600;
+    border-left: 5px solid #FFA600;
+    background: rgb(121, 93, 43);
+
+}
+
+.well.Dashboard {
+    transition: 0.2s;
+    color: #FFA600;
+    border-left: 5px solid #FFA600;
+    background: rgb(121, 93, 43);
+}
+
+
+
+
+
+
+
+
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+    .row.content {height: auto;} 
+  }
+  

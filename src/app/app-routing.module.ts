@@ -17,6 +17,12 @@ const routes: Routes = [
         { path: 'landingpage', loadChildren: () => import('./pages/landingpage/landingpage.module').then(m => m.LandingpageModule) },
         { path: 'login', loadChildren: () => import('./pages/login/login.module').then(m => m.LoginModule) },
         { path: 'cart', loadChildren: () => import('./pages/cart/cart.module').then(m => m.CartModule) },
+        { path: 'user', loadChildren: () => import('./pages/user/user.module').then(m => m.UserModule) },
+        { path: 'admin', loadChildren: () => import('./pages/admin/admin.module').then(m => m.AdminModule) },
+        { path: 'signup', loadChildren: () => import('./pages/signup/signup.module').then(m => m.SignupModule) },
+        { path: 'vendor', loadChildren: () => import('./pages/vendor/vendor.module').then(m => m.VendorModule) },
+
+
       ],
     },
     
